@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class = "parentElement">
+    <h1>DOM 4 Exercise</h1>
+    <form>
+        <div>
+            <label for="money">How many?</label>
+   <!--Adding "required min"-->         
+            <input type="number" required min = "1" id = "money" name = "coins">
+        </div>
+
+        <div>
+
+        <label for="coin">Which coin?</label>
+        <select name="coin" id="coin">
+            <option value="penny">penny</option>
+            <option value="nickel">nickel</option>
+            <option value="dime">dime</option>
+            <option value="quarter">quarter</option>
+        </select>
+
+        </div>
+
+       <!-- <button class = "button">Make Money!</button> -->
+       <input type="submit" value="Make Money">
+    </form> 
+<section>
+
+    <!-- <div class = "coin"></div> -->
+     <div class = "coin penny"></div> 
+     <div class = " coin nickel"></div> 
+     <div class = " coin dime"></div> 
+     <div class = " coin quarter"></div> 
+
+
+</section>
+
+
+   
+    <script src="scripts.js"> </script>
+
+</body>
+</html>
